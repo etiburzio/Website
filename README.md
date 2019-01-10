@@ -6,4 +6,4 @@ This competition targets open-minded creative digital natives. Our aim is not on
 
 Furthermore, through CSCL, we promote safe online behaviors by raising awareness on information security issues as well as develop expertise and interest in cybersecurity through challenging games and skill tests.
 
-_Note: There are NO challenges in this source code_ Seriously.
+_Note: There are NO challenges in this source code._ Seriously.
