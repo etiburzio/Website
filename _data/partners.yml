@@ -1,0 +1,31 @@
+
+- image: "../img/logos/bee-secure-logo.png" 
+  url: "https://www.bee-secure.lu/de"
+- image: "../img/logos/circl-logo.png"
+  url: https://www.circl.lu/
+- image: "../img/logos/c3-logo.png"
+  url: https://www.c-3.lu/
+- image: "../img/logos/cases_lu-logo.png"
+  url: https://www.cases.lu/
+- image: "../img/logos/digital-luxembourg_logo.jpg"
+  url: https://digital-luxembourg.public.lu/
+- image: "../img/logos/enisa-logo.png"
+  url: https://www.enisa.europa.eu/
+- image: "../img/logos/fjsl-logo.jpeg"
+  url: http://www.fjsl.lu/
+- image: "../img/logos/uni-lu-logo.jpg"
+  url: https://wwwen.uni.lu/
+- image: "../img/logos/lts-logo.png"
+  url: http://www.techschool.lu/
+- image: "../img/logos/ncert-logo.png"
+  url: https://www.govcert.lu/en/ncert.html
+- image: "../img/logos/script-logo.png"
+  url: https://portal.education.lu/script/
+- image: "../img/logos/mineco-logo.jpg"
+  url: https://meco.gouvernement.lu/fr.html
+- image: "../img/logos/CGIE-LU-logo.png"
+  url: https://portal.education.lu/cgie
+- image: "../img/logos/Secmadein_lu.png"
+  url: https://securitymadein.lu/
+
+

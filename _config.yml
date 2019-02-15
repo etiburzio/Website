@@ -1,0 +1,51 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: https://cscl.lu/index.html
+title: LËTZ CYBERSECURITY CHALLENGE
+email: your-email@domain.com
+author: Security Made In LU
+description: VestaTech a fictitious Luxembourgish start-up is in an arms race with a large international conglomerate to reach for and exploit the resources of a close by asteroid. Join us in this imaginative adventure where not everyone will play fair. Who knew that the last frontier in space would be digital? Soon, you'll be able to show us what you really got!
+copyright: 'Copyright &copy; 2018 Securitymadein.lu'
+credits: Privacy Policy & other Legal elements
+
+X-Frame-Options: ALLOW
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+links:
+  - title: register here
+    url: https://vestatech.cscl.lu/register/
+ 
+vesta:
+  - title: twitter
+    url: https://twitter.com/VestaTechSpace
+  - title: facebook
+    url: https://www.facebook.com/VestaTechLuxembourg
+
+social:
+  - title: twitter
+    url: https://twitter.com/@CSCLuxembourg
+  - title: facebook
+    url: https://m.facebook.com/CyberSecurity-Challenge-Luxembourg-336947350423217
+  - title: linkedin
+    url: https://www.linkedin.com/showcase/cscluxembourg/
+  - title: envelope
+    url: mailto:info@securitymadein.lu
+
+ 
+
+
+                
+         
+
