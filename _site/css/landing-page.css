@@ -1,0 +1,301 @@
+/*!
+ * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+h1{
+	color: black;
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.intro-header {
+    padding-top: 10%; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background-size: 100% 90%;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+}
+.intro {
+    position: relative;
+    padding-top: 30%;
+    padding-bottom: 32%;
+}
+
+.register > h1 {
+    margin: 5%;
+    font-size: 35px;
+}
+/* Titles "Do you have what it takes?" & "This year's scenario"*/
+.title-div {
+    position: relative;
+    padding-top: 7%;
+    padding-bottom: 10%;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin: 15px;
+}
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+.banner {
+    padding: 80px 0;
+    color: #f8f8f8;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    background: url(../img/banner-bg.png) repeat ;
+    background-size: 100%;
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
+/*nav {
+    height: 50%;
+}*/
+.start {
+    padding: 50px 0;
+}
+li {
+    list-style-type: none;
+}
+.btn {
+   background-color:  #ffff00;
+}
+.btn-logo {
+   float: left;
+   margin: 2px;
+   size: 100%;
+}
+.socials-footer {
+  float: right;
+}
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+p.copyright {
+    margin: 15px 0 0;
+}
+#privacyPolicy {
+    margin: 60px 0 20px 0;
+}
+table th {
+   margin-right: 5px;
+}
+.logos {
+   margin: 10px 6px;
+   float: left;
+}
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 10px 15px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 25px;
+}
+.social-icons {
+  position: fixed;
+  top: 70%;
+  right: 0px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 7;
+}
+#twitter {
+  background: #55ACEE;
+  color: white;
+}
+#linkedin {
+  background: #007bb5;
+  color: white;
+}
+#facebook {
+  background: #3B5998;
+  color: white;
+}
+#envelope{
+ background-color: #DC143C;
+}
+#facebook:hover, #twitter:hover, #linkedin:hover, #envelope:hover{
+  background-color: #000;
+  size:75%;
+}
+.post-images {
+   width: 100%;
+}
+.howTo-Link {
+  width: 50%;
+  float: left;
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+.nav-role {
+  height: 70px !important;  
+  padding: 10px 0px;
+}
+/*
+.page-scroll {
+  padding: 0 10px;
+  width: 100%;
+}*/
+.menu {
+  font-size: 17px;
+}/*
+.nav-container {
+padding: 15px 15px;
+}*/
+.h1_title {
+  margin-top: 40px;
+}/*
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+}*/
+.navbar-default .navbar-nav {
+  background-color: #f8f8f8;
+}/*
+.navbar-brand {
+  float: none;
+}
+*/
+
+/* Block Footer */
+#footer-block1{
+   width: 30%;
+}
+#footer-block2{
+   width: 70%;
+}
+
+.email{
+   color: white;
+}
+.email:hover{
+  color: #ccc;
+}
+.navbar-brand{
+  padding: 15px 2px;
+}
