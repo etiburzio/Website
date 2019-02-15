@@ -1,0 +1,90 @@
+<section id="services">
+<!-- Page Content -->
+
+{% for post in site.posts reversed %}
+
+   {% if forloop.index == 3 %}
+      <section id="scenario" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+		<div class="col-lg-12">
+			<div class="title-div">
+				<h1 class="h1_title">THIS YEAR'S SCENARIO</h1>
+			</div>
+		</div>
+		<br>
+	    </div>
+	</div>
+      </section>
+  {% endif %}
+  {% if forloop.index == 2 %}
+      <section class="container content-section" >
+        <div class="row">
+		 <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+         		<h2>The Partners</h2>
+			<div class="imageSection">
+				<section id="services">
+					<div class="container">				
+						{% for partner in site.data.partners %}
+						<a href="{{ partner.url }}"  target="_blank"><img class="img-responsive logos" src="{{ partner.image }}" width="150px" height="125px" style="float:left" alt=""></a>
+						{% endfor %}	
+					</div>
+				</section>
+               		</div>
+        	     </div>        
+		</div>
+	</div>
+     </section>
+  {% endif %}
+  {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+  	{% if thecycle == 'odd' %}
+    <div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">{{ post.title }}</h2>
+                    <div class="lead">{{ post.content }}</div>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive post-images" src="img/services/{{ post.img }}" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+    {% else %}
+
+    <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">{{ post.title }}</h2>
+                    <div class="lead">{{ post.content }}</div>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                  <img class="img-responsive post-images" src="img/services/{{ post.img }}" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-b -->
+
+    {% endif %}
+{% endfor %}
+</section>

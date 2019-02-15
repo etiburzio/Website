@@ -1,0 +1,8 @@
+<div class="icon-bar social-icons at-share-dock.atss">
+	{% for social in site.social %}
+        <li>
+               <a href="{{ social.url }}" id="{{ social.title }}" class="" target="_blank"><i class="fa fas fa-{{ social.title }}"></i> </a>
+        </li>
+        {% endfor %}
+</div>
+
